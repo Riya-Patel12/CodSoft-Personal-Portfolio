@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio-Riya Patel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.jpg" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul> 
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Student</p>
+        <h1>Hi, I'm <span>Riya Patel.</span></h1><br>
+        <p>Welcome to my personal portfolio website! <br>Explore my work and feel free to reach out through social media <br>or the contact form below.</p>
+      </div>
+      <!-- <img src="img1.png" alt="background" class="img"> -->
+    </div>
+  </div>
+
+<!-- 2nd page -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-1">
+          <img src="img2.png">
+        </div>
+        <div class="about-2">
+          <!-- <h1 class="sub-title">About Me</h1> -->
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Technical Skills</span><br><BR>HTML  | CSS | JAVASCRIPT | NODE.JS | C | C# | C++ |<br><br> OOP | OS | PYTHON | JQUERY | DATABASE | ANGULAR JS <br><br> FRONTEND & BACKEND | PHOTOSHOP </li><br>
+                <LI><span>Non-Technical Skills</span><br><br>COMMUNICATION SKIILS<br><BR>PROBLEM SOLVING<br><br>TIME-MANAGEMENT<br><br>TEAM-WORK<br><BR>CREATIVITY</LI>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Fresher</span></li>
+                <li class="paragraph">I do not have professional experience yet, but I am passionate about design and have developed relevant skills through academic projects and coursework. I am eager to apply my knowledge and contribute effectively to a dynamic team.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020</span><br>SSC<br>Percentile:90.91<br>Grade-B1</li><br>
+                <li><span>2022</span><br>HSC<br>Percentile:95.27<br>Grade-A2</li><br>
+                <li><span>2024-25</span><br>Currently Pursuring bscit-3rd year<br>2nd year-7.99/10<br>Grade-A</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3rd page -->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="listServices">
+        <div>
+          <i class="fa-solid fa-palette"></i>
+          <h2>Web design</h2>
+          <p>As a responsive web designer, I make user-friendly websites that look good on all devices. I create designs, work with developers, and keep the design consistent with the marketing team.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Frontend & Backend Design</h2>
+          <p>As a frontend and backend designer, I create user-friendly websites and manage server-side logic and databases, ensuring seamless design and functionality.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-user"></i>
+          <h2>Freelancer</h2>
+          <p>As a freelancer, I design and build websites, handling both user-friendly layouts and server-side logic to ensure seamless functionality.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- 4th page -->
+
+<div id="projects">
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="listProject">
+      <div class="project">
+        <img src="img3.png">
+        <div class="info">
+          <h3>Landing Page</h3>
+          <p>Its a project of landing page which made using html and css.</p>
+          <a href="https://riya-patel12.github.io/CodSoft-Landing-Page/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="img4.png"> 
+        <div class="info">
+          <h3>Calculator</h3>
+          <p>Its a project of basic Calculator.which performs addition,substraction,multiplication and division.</p>
+          <a href="https://riya-patel12.github.io/CodSoft-Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <button class="button">More Soon..</button>
+  </div>
+</div>
+
+<!-- 5th page -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>riyapatel3806@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>99789*****</p>
+        <div class="icons">
+          <a href="https://github.com/Riya-Patel12"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/riya-patel-b63b92309"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:riyapatel3806@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <a href="Resume Riya Patel.pdf" download class="btn">Download CV</a>
+      </div>
+      <div class="right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright <i class="fa-solid fa-copyright"></i> Riya Patel 2024.All Right Reserved.</p>
+  </div>
+</div>
+
+
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+
+  <script>
+    var sidemeu=document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemeu.style.right="0";
+    }
+
+    function closemenu(){
+      sidemeu.style.right="-200px";
+    }
+
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbztwata1L59YEB8sbVLOyvowUnDX89MgieVCrTZinNQJidxII-5NJS4WSJf7im_GwyP/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message Sent Successfully.!"
+          setTimeout(function(){
+            msg.innerHTML=""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
